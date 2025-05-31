@@ -99,7 +99,7 @@ def atualizar_termo():
     return redirect(url_for('glossario'))
 
 
-genai.configure(api_key="AIzaSyAXrWr_CvUhEZfOJh-Rk5_2La_zKK9ptY0")
+genai.configure(api_key="")
 
 # Modelo
 model = genai.GenerativeModel(model_name='gemini-1.0-pro')
